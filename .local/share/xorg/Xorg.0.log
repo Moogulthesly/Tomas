@@ -1,0 +1,607 @@
+[    44.486] (--) Log file renamed from "/home/tomas/.local/share/xorg/Xorg.pid-873.log" to "/home/tomas/.local/share/xorg/Xorg.0.log"
+[    44.531] 
+X.Org X Server 1.19.6
+Release Date: 2017-12-20
+[    44.531] X Protocol Version 11, Revision 0
+[    44.532] Build Operating System: Linux 4.4.0-119-generic x86_64 Ubuntu
+[    44.532] Current Operating System: Linux tomas-VirtualBox 4.15.0-29-generic #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 x86_64
+[    44.532] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-29-generic root=UUID=fcb8568b-d94d-46ce-9b9c-ab4338272687 ro quiet splash
+[    44.533] Build Date: 13 April 2018  08:07:36PM
+[    44.533] xorg-server 2:1.19.6-1ubuntu4 (For technical support please see http://www.ubuntu.com/support) 
+[    44.533] Current version of pixman: 0.34.0
+[    44.533] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    44.534] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    44.534] (==) Log file: "/home/tomas/.local/share/xorg/Xorg.0.log", Time: Sat Dec 15 11:18:16 2018
+[    44.583] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    44.595] (==) No Layout section.  Using the first Screen section.
+[    44.596] (==) No screen section available. Using defaults.
+[    44.596] (**) |-->Screen "Default Screen Section" (0)
+[    44.596] (**) |   |-->Monitor "<default monitor>"
+[    44.598] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    44.598] (==) Automatically adding devices
+[    44.598] (==) Automatically enabling devices
+[    44.598] (==) Automatically adding GPU devices
+[    44.598] (==) Automatically binding GPU devices
+[    44.598] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    44.680] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    44.680] 	Entry deleted from font path.
+[    44.680] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    44.681] 	Entry deleted from font path.
+[    44.681] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    44.681] 	Entry deleted from font path.
+[    44.682] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    44.682] 	Entry deleted from font path.
+[    44.683] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    44.683] 	Entry deleted from font path.
+[    44.684] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    44.684] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    44.684] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    44.699] (II) Loader magic: 0x55e088a84020
+[    44.700] (II) Module ABI versions:
+[    44.700] 	X.Org ANSI C Emulation: 0.4
+[    44.700] 	X.Org Video Driver: 23.0
+[    44.700] 	X.Org XInput driver : 24.1
+[    44.700] 	X.Org Server Extension : 10.0
+[    44.706] (++) using VT number 1
+
+[    44.712] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[    44.713] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    44.717] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[    44.722] (--) PCI:*(0:0:2:0) 80ee:beef:0000:0000 rev 0, Mem @ 0xe0000000/16777216, BIOS @ 0x????????/131072
+[    44.722] (II) LoadModule: "glx"
+[    44.765] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    45.157] (II) Module glx: vendor="X.Org Foundation"
+[    45.157] 	compiled for 1.19.6, module version = 1.0.0
+[    45.157] 	ABI class: X.Org Server Extension, version 10.0
+[    45.157] (==) Matched vboxvideo as autoconfigured driver 0
+[    45.157] (==) Matched vboxvideo as autoconfigured driver 1
+[    45.157] (==) Matched modesetting as autoconfigured driver 2
+[    45.157] (==) Matched fbdev as autoconfigured driver 3
+[    45.157] (==) Matched vesa as autoconfigured driver 4
+[    45.157] (==) Assigned the driver to the xf86ConfigLayout
+[    45.157] (II) LoadModule: "vboxvideo"
+[    45.187] (WW) Warning, couldn't open module vboxvideo
+[    45.187] (II) UnloadModule: "vboxvideo"
+[    45.187] (II) Unloading vboxvideo
+[    45.187] (EE) Failed to load module "vboxvideo" (module does not exist, 0)
+[    45.187] (II) LoadModule: "modesetting"
+[    45.187] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    45.251] (II) Module modesetting: vendor="X.Org Foundation"
+[    45.251] 	compiled for 1.19.6, module version = 1.19.6
+[    45.251] 	Module class: X.Org Video Driver
+[    45.251] 	ABI class: X.Org Video Driver, version 23.0
+[    45.251] (II) LoadModule: "fbdev"
+[    45.251] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    45.273] (II) Module fbdev: vendor="X.Org Foundation"
+[    45.273] 	compiled for 1.19.3, module version = 0.4.4
+[    45.273] 	Module class: X.Org Video Driver
+[    45.273] 	ABI class: X.Org Video Driver, version 23.0
+[    45.273] (II) LoadModule: "vesa"
+[    45.274] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    45.292] (II) Module vesa: vendor="X.Org Foundation"
+[    45.297] 	compiled for 1.19.3, module version = 2.3.4
+[    45.297] 	Module class: X.Org Video Driver
+[    45.297] 	ABI class: X.Org Video Driver, version 23.0
+[    45.297] (==) Matched vboxvideo as autoconfigured driver 0
+[    45.297] (==) Matched vboxvideo as autoconfigured driver 1
+[    45.297] (==) Matched modesetting as autoconfigured driver 2
+[    45.297] (==) Matched fbdev as autoconfigured driver 3
+[    45.297] (==) Matched vesa as autoconfigured driver 4
+[    45.297] (==) Assigned the driver to the xf86ConfigLayout
+[    45.297] (II) LoadModule: "vboxvideo"
+[    45.297] (WW) Warning, couldn't open module vboxvideo
+[    45.297] (II) UnloadModule: "vboxvideo"
+[    45.298] (II) Unloading vboxvideo
+[    45.298] (EE) Failed to load module "vboxvideo" (module does not exist, 0)
+[    45.298] (II) LoadModule: "modesetting"
+[    45.299] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    45.300] (II) Module modesetting: vendor="X.Org Foundation"
+[    45.300] 	compiled for 1.19.6, module version = 1.19.6
+[    45.300] 	Module class: X.Org Video Driver
+[    45.300] 	ABI class: X.Org Video Driver, version 23.0
+[    45.300] (II) UnloadModule: "modesetting"
+[    45.300] (II) Unloading modesetting
+[    45.300] (II) Failed to load module "modesetting" (already loaded, 0)
+[    45.300] (II) LoadModule: "fbdev"
+[    45.301] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    45.301] (II) Module fbdev: vendor="X.Org Foundation"
+[    45.301] 	compiled for 1.19.3, module version = 0.4.4
+[    45.301] 	Module class: X.Org Video Driver
+[    45.301] 	ABI class: X.Org Video Driver, version 23.0
+[    45.302] (II) UnloadModule: "fbdev"
+[    45.302] (II) Unloading fbdev
+[    45.302] (II) Failed to load module "fbdev" (already loaded, 0)
+[    45.302] (II) LoadModule: "vesa"
+[    45.303] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    45.303] (II) Module vesa: vendor="X.Org Foundation"
+[    45.303] 	compiled for 1.19.3, module version = 2.3.4
+[    45.303] 	Module class: X.Org Video Driver
+[    45.303] 	ABI class: X.Org Video Driver, version 23.0
+[    45.303] (II) UnloadModule: "vesa"
+[    45.303] (II) Unloading vesa
+[    45.303] (II) Failed to load module "vesa" (already loaded, 0)
+[    45.303] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    45.303] (II) FBDEV: driver for framebuffer: fbdev
+[    45.303] (II) VESA: driver for VESA chipsets: vesa
+[    45.304] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[    45.304] (II) modeset(0): using drv /dev/dri/card0
+[    45.305] (WW) Falling back to old probe method for fbdev
+[    45.305] (II) Loading sub module "fbdevhw"
+[    45.305] (II) LoadModule: "fbdevhw"
+[    45.306] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    45.325] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    45.325] 	compiled for 1.19.6, module version = 0.0.2
+[    45.325] 	ABI class: X.Org Video Driver, version 23.0
+[    45.326] (EE) open /dev/fb0: Permission denied
+[    45.326] (WW) Falling back to old probe method for vesa
+[    45.326] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    45.326] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    45.326] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    45.326] (==) modeset(0): RGB weight 888
+[    45.326] (==) modeset(0): Default visual is TrueColor
+[    45.326] (II) Loading sub module "glamoregl"
+[    45.326] (II) LoadModule: "glamoregl"
+[    45.331] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    45.475] (II) Module glamoregl: vendor="X.Org Foundation"
+[    45.475] 	compiled for 1.19.6, module version = 1.0.0
+[    45.475] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    45.475] (II) glamor: OpenGL accelerated X.org driver based.
+[    48.454] (II) glamor: EGL version 1.4 (DRI2):
+[    48.454] EGL_MESA_drm_image required.
+[    48.483] (EE) modeset(0): glamor initialization failed
+[    48.483] (II) modeset(0): ShadowFB: preferred NO, enabled NO
+[    48.484] (II) modeset(0): Output VGA-1 has no monitor section
+[    48.489] (II) modeset(0): EDID for output VGA-1
+[    48.489] (II) modeset(0): Manufacturer: VBX  Model: 0  Serial#: 43648000
+[    48.489] (II) modeset(0): Year: 1990  Week: 1
+[    48.489] (II) modeset(0): EDID Version: 1.3
+[    48.490] (II) modeset(0): Digital Display Input
+[    48.490] (II) modeset(0): Indeterminate output size
+[    48.490] (II) modeset(0): Gamma: 2.20
+[    48.490] (II) modeset(0): DPMS capabilities: StandBy Suspend Off
+[    48.490] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    48.490] (II) modeset(0): Default color space is primary color space
+[    48.490] (II) modeset(0): First detailed timing is preferred mode
+[    48.490] (II) modeset(0): redX: 0.640 redY: 0.330   greenX: 0.300 greenY: 0.600
+[    48.490] (II) modeset(0): blueX: 0.150 blueY: 0.060   whiteX: 0.312 whiteY: 0.329
+[    48.490] (II) modeset(0): Manufacturer's mask: 0
+[    48.490] (II) modeset(0): Supported detailed timing:
+[    48.490] (II) modeset(0): clock: 41.5 MHz   Image Size:  0 x 0 mm
+[    48.490] (II) modeset(0): h_active: 1024  h_sync: 1026  h_sync_end 1028 h_blank_end 1030 h_border: 0
+[    48.490] (II) modeset(0): v_active: 666  v_sync: 666  v_sync_end 700 v_blanking: 672 v_border: 0
+[    48.490] (II) modeset(0): Ranges: V min: 0 V max: 200 Hz, H min: 0 H max: 200 kHz, PixClock max 1005 MHz
+[    48.490] (II) modeset(0): Monitor name: VBOX monitor
+[    48.490] (II) modeset(0): EDID (in hex):
+[    48.490] (II) modeset(0): 	00ffffffffffff005858000000049a02
+[    48.490] (II) modeset(0): 	0100010380000078eeee91a3544c9926
+[    48.490] (II) modeset(0): 	0f505400000001010101010101010101
+[    48.490] (II) modeset(0): 	01010101010138100006409a06200202
+[    48.490] (II) modeset(0): 	0202000000000000000000fd0000c800
+[    48.490] (II) modeset(0): 	c864000a202020202020000000fc0056
+[    48.490] (II) modeset(0): 	424f58206d6f6e69746f720a00000010
+[    48.490] (II) modeset(0): 	000a202020202020202020202020006f
+[    48.490] (II) modeset(0): Printing probed modes for output VGA-1
+[    48.490] (II) modeset(0): Modeline "1024x666"x60.0   54.46  1024 1072 1168 1312  666 669 679 692 -hsync +vsync (41.5 kHz P)
+[    48.490] (II) modeset(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+[    48.490] (II) modeset(0): Modeline "2560x1600"x60.0  268.50  2560 2608 2640 2720  1600 1603 1609 1646 +hsync -vsync (98.7 kHz e)
+[    48.490] (II) modeset(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+[    48.490] (II) modeset(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+[    48.490] (II) modeset(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+[    48.490] (II) modeset(0): Modeline "2048x1152"x60.0  162.00  2048 2074 2154 2250  1152 1153 1156 1200 +hsync +vsync (72.0 kHz e)
+[    48.490] (II) modeset(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[    48.490] (II) modeset(0): Modeline "1920x1200"x60.0  154.00  1920 1968 2000 2080  1200 1203 1209 1235 +hsync -vsync (74.0 kHz e)
+[    48.490] (II) modeset(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 -hsync -vsync (67.5 kHz e)
+[    48.490] (II) modeset(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[    48.490] (II) modeset(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[    48.490] (II) modeset(0): Modeline "1680x1050"x59.9  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[    48.490] (II) modeset(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[    48.490] (II) modeset(0): Modeline "1400x1050"x59.9  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[    48.491] (II) modeset(0): Modeline "1600x900"x60.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz e)
+[    48.491] (II) modeset(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    48.491] (II) modeset(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[    48.491] (II) modeset(0): Modeline "1440x900"x59.9   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[    48.491] (II) modeset(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    48.491] (II) modeset(0): Modeline "1366x768"x59.8   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz e)
+[    48.491] (II) modeset(0): Modeline "1366x768"x60.0   72.00  1366 1380 1436 1500  768 769 772 800 +hsync +vsync (48.0 kHz e)
+[    48.491] (II) modeset(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[    48.491] (II) modeset(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[    48.491] (II) modeset(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    48.491] (II) modeset(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[    48.491] (II) modeset(0): Modeline "1280x768"x60.0   68.25  1280 1328 1360 1440  768 771 778 790 +hsync -vsync (47.4 kHz e)
+[    48.491] (II) modeset(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    48.491] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    48.491] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    48.491] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    48.491] (II) modeset(0): Modeline "848x480"x60.0   33.75  848 864 976 1088  480 486 494 517 +hsync +vsync (31.0 kHz e)
+[    48.491] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    48.491] (II) modeset(0): Output VGA-1 connected
+[    48.491] (II) modeset(0): Using exact sizes for initial modes
+[    48.491] (II) modeset(0): Output VGA-1 using initial mode 1024x666 +0+0
+[    48.491] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    48.491] (==) modeset(0): DPI set to (96, 96)
+[    48.491] (II) Loading sub module "fb"
+[    48.491] (II) LoadModule: "fb"
+[    48.491] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    48.509] (II) Module fb: vendor="X.Org Foundation"
+[    48.509] 	compiled for 1.19.6, module version = 1.0.0
+[    48.509] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    48.509] (II) UnloadModule: "fbdev"
+[    48.509] (II) Unloading fbdev
+[    48.509] (II) UnloadSubModule: "fbdevhw"
+[    48.509] (II) Unloading fbdevhw
+[    48.509] (II) UnloadModule: "vesa"
+[    48.509] (II) Unloading vesa
+[    48.509] (==) Depth 24 pixmap format is 32 bpp
+[    48.527] (==) modeset(0): Backing store enabled
+[    48.527] (==) modeset(0): Silken mouse enabled
+[    48.528] (II) modeset(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    48.530] (==) modeset(0): DPMS enabled
+[    48.530] (--) RandR disabled
+[    48.539] (II) SELinux: Disabled on system
+[    48.541] (II) AIGLX: Screen 0 is not DRI2 capable
+[    48.542] (EE) AIGLX: reverting to software rendering
+[    48.885] (II) IGLX: enabled GLX_MESA_copy_sub_buffer
+[    48.889] (II) IGLX: Loaded and initialized swrast
+[    48.889] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    48.891] (II) modeset(0): Damage tracking initialized
+[    48.891] (II) modeset(0): Setting screen physical size to 270 x 176
+[    49.452] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    49.452] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    49.452] (II) LoadModule: "libinput"
+[    49.454] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    49.623] (II) Module libinput: vendor="X.Org Foundation"
+[    49.623] 	compiled for 1.19.6, module version = 0.27.1
+[    49.624] 	Module class: X.Org XInput Driver
+[    49.624] 	ABI class: X.Org XInput driver, version 24.1
+[    49.624] (II) Using input driver 'libinput' for 'Power Button'
+[    49.629] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 20 paused 0
+[    49.629] (**) Power Button: always reports core events
+[    49.629] (**) Option "Device" "/dev/input/event0"
+[    49.629] (**) Option "_source" "server/udev"
+[    49.630] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    49.630] (II) event0  - Power Button: device is a keyboard
+[    49.630] (II) event0  - Power Button: device removed
+[    49.630] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[    49.631] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    49.631] (**) Option "xkb_model" "pc105"
+[    49.631] (**) Option "xkb_layout" "us"
+[    49.631] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    49.631] (II) event0  - Power Button: device is a keyboard
+[    49.637] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    49.637] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    49.637] (II) Using input driver 'libinput' for 'Sleep Button'
+[    49.643] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 23 paused 0
+[    49.643] (**) Sleep Button: always reports core events
+[    49.643] (**) Option "Device" "/dev/input/event1"
+[    49.644] (**) Option "_source" "server/udev"
+[    49.649] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    49.649] (II) event1  - Sleep Button: device is a keyboard
+[    49.649] (II) event1  - Sleep Button: device removed
+[    49.649] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+[    49.650] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    49.651] (**) Option "xkb_model" "pc105"
+[    49.651] (**) Option "xkb_layout" "us"
+[    49.654] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    49.655] (II) event1  - Sleep Button: device is a keyboard
+[    49.661] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[    49.662] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    49.663] (II) Using input driver 'libinput' for 'Video Bus'
+[    49.668] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 24 paused 0
+[    49.669] (**) Video Bus: always reports core events
+[    49.669] (**) Option "Device" "/dev/input/event3"
+[    49.670] (**) Option "_source" "server/udev"
+[    49.673] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[    49.674] (II) event3  - Video Bus: device is a keyboard
+[    49.674] (II) event3  - Video Bus: device removed
+[    49.674] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4/event3"
+[    49.675] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    49.675] (**) Option "xkb_model" "pc105"
+[    49.675] (**) Option "xkb_layout" "us"
+[    49.681] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[    49.681] (II) event3  - Video Bus: device is a keyboard
+[    49.682] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/event6)
+[    49.682] (**) VirtualBox mouse integration: Applying InputClass "libinput pointer catchall"
+[    49.683] (II) Using input driver 'libinput' for 'VirtualBox mouse integration'
+[    49.687] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 25 paused 0
+[    49.687] (**) VirtualBox mouse integration: always reports core events
+[    49.687] (**) Option "Device" "/dev/input/event6"
+[    49.688] (**) Option "_source" "server/udev"
+[    49.692] (II) event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+[    49.692] (II) event6  - VirtualBox mouse integration: device is a pointer
+[    49.692] (II) event6  - VirtualBox mouse integration: device removed
+[    49.693] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:04.0/input/input7/event6"
+[    49.693] (II) XINPUT: Adding extended input device "VirtualBox mouse integration" (type: MOUSE, id 9)
+[    49.694] (**) Option "AccelerationScheme" "none"
+[    49.694] (**) VirtualBox mouse integration: (accel) selected scheme none/0
+[    49.695] (**) VirtualBox mouse integration: (accel) acceleration factor: 2.000
+[    49.695] (**) VirtualBox mouse integration: (accel) acceleration threshold: 4
+[    49.698] (II) event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+[    49.698] (II) event6  - VirtualBox mouse integration: device is a pointer
+[    49.706] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/js1)
+[    49.707] (II) No input driver specified, ignoring this device.
+[    49.707] (II) This device may have been added with another device file.
+[    49.716] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event5)
+[    49.716] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[    49.716] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[    49.777] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 26 paused 0
+[    49.777] (**) VirtualBox USB Tablet: always reports core events
+[    49.777] (**) Option "Device" "/dev/input/event5"
+[    49.777] (**) Option "_source" "server/udev"
+[    49.779] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    49.779] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[    49.779] (II) event5  - VirtualBox USB Tablet: device removed
+[    49.779] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6/event5"
+[    49.779] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[    49.779] (**) Option "AccelerationScheme" "none"
+[    49.779] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[    49.779] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[    49.779] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[    49.784] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    49.784] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[    49.789] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[    49.789] (II) No input driver specified, ignoring this device.
+[    49.790] (II) This device may have been added with another device file.
+[    49.792] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[    49.792] (II) No input driver specified, ignoring this device.
+[    49.792] (II) This device may have been added with another device file.
+[    49.796] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    49.796] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    49.796] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    49.801] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 27 paused 0
+[    49.801] (**) AT Translated Set 2 keyboard: always reports core events
+[    49.801] (**) Option "Device" "/dev/input/event2"
+[    49.801] (**) Option "_source" "server/udev"
+[    49.802] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    49.803] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    49.803] (II) event2  - AT Translated Set 2 keyboard: device removed
+[    49.803] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[    49.803] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+[    49.804] (**) Option "xkb_model" "pc105"
+[    49.804] (**) Option "xkb_layout" "us"
+[    49.812] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    49.812] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    49.814] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event4)
+[    49.814] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[    49.814] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    49.819] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 28 paused 0
+[    49.819] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    49.819] (**) Option "Device" "/dev/input/event4"
+[    49.819] (**) Option "_source" "server/udev"
+[    49.822] (II) event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    49.822] (II) event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    49.822] (II) event4  - ImExPS/2 Generic Explorer Mouse: device removed
+[    49.822] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input5/event4"
+[    49.823] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 12)
+[    49.823] (**) Option "AccelerationScheme" "none"
+[    49.823] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[    49.824] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    49.824] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    49.828] (II) event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    49.828] (II) event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    49.830] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[    49.830] (II) No input driver specified, ignoring this device.
+[    49.830] (II) This device may have been added with another device file.
+[    57.098] (II) modeset(0): EDID vendor "VBX", prod id 0
+[    57.098] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[    57.098] (II) modeset(0): Using EDID range info for horizontal sync
+[    57.098] (II) modeset(0): Using EDID range info for vertical refresh
+[    79.722] (II) modeset(0): EDID vendor "VBX", prod id 0
+[    79.722] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[    79.723] (II) modeset(0): Using hsync ranges from config file
+[    79.723] (II) modeset(0): Using vrefresh ranges from config file
+[   170.268] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   170.268] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[   170.269] (II) modeset(0): Using hsync ranges from config file
+[   170.269] (II) modeset(0): Using vrefresh ranges from config file
+[   170.293] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   170.294] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[   170.294] (II) modeset(0): Using hsync ranges from config file
+[   170.294] (II) modeset(0): Using vrefresh ranges from config file
+[   170.302] (II) modeset(0): Allocate new frame buffer 640x480 stride
+[   170.315] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   170.315] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[   170.316] (II) modeset(0): Using hsync ranges from config file
+[   170.316] (II) modeset(0): Using vrefresh ranges from config file
+[   170.861] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   170.861] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[   170.861] (II) modeset(0): Using hsync ranges from config file
+[   170.861] (II) modeset(0): Using vrefresh ranges from config file
+[   184.916] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   184.917] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[   184.918] (II) modeset(0): Using hsync ranges from config file
+[   184.918] (II) modeset(0): Using vrefresh ranges from config file
+[   184.929] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   184.929] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[   184.929] (II) modeset(0): Using hsync ranges from config file
+[   184.930] (II) modeset(0): Using vrefresh ranges from config file
+[   184.984] (II) modeset(0): Allocate new frame buffer 1024x666 stride
+[   185.007] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   185.007] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[   185.007] (II) modeset(0): Using hsync ranges from config file
+[   185.008] (II) modeset(0): Using vrefresh ranges from config file
+[   185.570] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   185.570] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[   185.570] (II) modeset(0): Using hsync ranges from config file
+[   185.570] (II) modeset(0): Using vrefresh ranges from config file
+[   444.072] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   444.103] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[   444.104] (II) modeset(0): Using hsync ranges from config file
+[   444.104] (II) modeset(0): Using vrefresh ranges from config file
+[   444.109] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   444.109] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[   444.109] (II) modeset(0): Using hsync ranges from config file
+[   444.109] (II) modeset(0): Using vrefresh ranges from config file
+[   444.130] (II) modeset(0): Allocate new frame buffer 640x480 stride
+[   444.160] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   444.160] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[   444.161] (II) modeset(0): Using hsync ranges from config file
+[   444.161] (II) modeset(0): Using vrefresh ranges from config file
+[   444.637] (II) modeset(0): EDID vendor "VBX", prod id 0
+[   444.637] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[   444.637] (II) modeset(0): Using hsync ranges from config file
+[   444.637] (II) modeset(0): Using vrefresh ranges from config file
+[  1150.507] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1150.507] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1150.507] (II) modeset(0): Using hsync ranges from config file
+[  1150.507] (II) modeset(0): Using vrefresh ranges from config file
+[  1150.511] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1150.511] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1150.511] (II) modeset(0): Using hsync ranges from config file
+[  1150.511] (II) modeset(0): Using vrefresh ranges from config file
+[  1150.528] (II) modeset(0): Allocate new frame buffer 1024x666 stride
+[  1150.562] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1150.562] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1150.562] (II) modeset(0): Using hsync ranges from config file
+[  1150.562] (II) modeset(0): Using vrefresh ranges from config file
+[  1151.339] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1151.339] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1151.339] (II) modeset(0): Using hsync ranges from config file
+[  1151.339] (II) modeset(0): Using vrefresh ranges from config file
+[  1908.827] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1908.827] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  1908.827] (II) modeset(0): Using hsync ranges from config file
+[  1908.827] (II) modeset(0): Using vrefresh ranges from config file
+[  1908.835] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1908.835] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  1908.835] (II) modeset(0): Using hsync ranges from config file
+[  1908.835] (II) modeset(0): Using vrefresh ranges from config file
+[  1908.876] (II) modeset(0): Allocate new frame buffer 640x480 stride
+[  1908.890] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1908.890] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  1908.890] (II) modeset(0): Using hsync ranges from config file
+[  1908.890] (II) modeset(0): Using vrefresh ranges from config file
+[  1909.514] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1909.515] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  1909.515] (II) modeset(0): Using hsync ranges from config file
+[  1909.515] (II) modeset(0): Using vrefresh ranges from config file
+[  1953.860] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1953.861] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1953.861] (II) modeset(0): Using hsync ranges from config file
+[  1953.861] (II) modeset(0): Using vrefresh ranges from config file
+[  1953.864] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1953.865] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1953.865] (II) modeset(0): Using hsync ranges from config file
+[  1953.865] (II) modeset(0): Using vrefresh ranges from config file
+[  1953.885] (II) modeset(0): Allocate new frame buffer 1024x666 stride
+[  1953.916] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1953.916] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1953.917] (II) modeset(0): Using hsync ranges from config file
+[  1953.917] (II) modeset(0): Using vrefresh ranges from config file
+[  1954.585] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1954.586] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1954.586] (II) modeset(0): Using hsync ranges from config file
+[  1954.586] (II) modeset(0): Using vrefresh ranges from config file
+[  1975.449] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1975.450] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  1975.450] (II) modeset(0): Using hsync ranges from config file
+[  1975.450] (II) modeset(0): Using vrefresh ranges from config file
+[  1975.454] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1975.454] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  1975.454] (II) modeset(0): Using hsync ranges from config file
+[  1975.455] (II) modeset(0): Using vrefresh ranges from config file
+[  1975.489] (II) modeset(0): Allocate new frame buffer 640x480 stride
+[  1975.512] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1975.513] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  1975.513] (II) modeset(0): Using hsync ranges from config file
+[  1975.513] (II) modeset(0): Using vrefresh ranges from config file
+[  1975.989] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1975.989] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  1975.989] (II) modeset(0): Using hsync ranges from config file
+[  1975.989] (II) modeset(0): Using vrefresh ranges from config file
+[  1989.477] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1989.477] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1989.477] (II) modeset(0): Using hsync ranges from config file
+[  1989.478] (II) modeset(0): Using vrefresh ranges from config file
+[  1989.481] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1989.481] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1989.481] (II) modeset(0): Using hsync ranges from config file
+[  1989.482] (II) modeset(0): Using vrefresh ranges from config file
+[  1989.506] (II) modeset(0): Allocate new frame buffer 1024x666 stride
+[  1989.527] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1989.528] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1989.528] (II) modeset(0): Using hsync ranges from config file
+[  1989.528] (II) modeset(0): Using vrefresh ranges from config file
+[  1990.169] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1990.169] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  1990.169] (II) modeset(0): Using hsync ranges from config file
+[  1990.170] (II) modeset(0): Using vrefresh ranges from config file
+[  2000.852] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2000.852] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  2000.852] (II) modeset(0): Using hsync ranges from config file
+[  2000.853] (II) modeset(0): Using vrefresh ranges from config file
+[  2000.858] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2000.858] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  2000.858] (II) modeset(0): Using hsync ranges from config file
+[  2000.858] (II) modeset(0): Using vrefresh ranges from config file
+[  2000.878] (II) modeset(0): Allocate new frame buffer 640x480 stride
+[  2000.897] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2000.897] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  2000.897] (II) modeset(0): Using hsync ranges from config file
+[  2000.897] (II) modeset(0): Using vrefresh ranges from config file
+[  2001.520] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2001.521] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  2001.521] (II) modeset(0): Using hsync ranges from config file
+[  2001.521] (II) modeset(0): Using vrefresh ranges from config file
+[  2077.928] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2077.929] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  2077.929] (II) modeset(0): Using hsync ranges from config file
+[  2077.929] (II) modeset(0): Using vrefresh ranges from config file
+[  2077.933] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2077.933] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  2077.933] (II) modeset(0): Using hsync ranges from config file
+[  2077.934] (II) modeset(0): Using vrefresh ranges from config file
+[  2077.963] (II) modeset(0): Allocate new frame buffer 1024x666 stride
+[  2078.005] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2078.007] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  2078.007] (II) modeset(0): Using hsync ranges from config file
+[  2078.007] (II) modeset(0): Using vrefresh ranges from config file
+[  2078.703] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2078.703] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  2078.704] (II) modeset(0): Using hsync ranges from config file
+[  2078.704] (II) modeset(0): Using vrefresh ranges from config file
+[  2157.009] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2157.009] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  2157.009] (II) modeset(0): Using hsync ranges from config file
+[  2157.009] (II) modeset(0): Using vrefresh ranges from config file
+[  2157.019] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2157.019] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  2157.019] (II) modeset(0): Using hsync ranges from config file
+[  2157.019] (II) modeset(0): Using vrefresh ranges from config file
+[  2157.040] (II) modeset(0): Allocate new frame buffer 640x480 stride
+[  2157.076] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2157.077] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  2157.077] (II) modeset(0): Using hsync ranges from config file
+[  2157.077] (II) modeset(0): Using vrefresh ranges from config file
+[  2157.592] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2157.592] (II) modeset(0): DDCModeFromDetailedTiming: 640x480 Warning: We only handle separate sync.
+[  2157.592] (II) modeset(0): Using hsync ranges from config file
+[  2157.592] (II) modeset(0): Using vrefresh ranges from config file
+[  2256.470] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2256.471] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  2256.471] (II) modeset(0): Using hsync ranges from config file
+[  2256.471] (II) modeset(0): Using vrefresh ranges from config file
+[  2256.474] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2256.474] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  2256.474] (II) modeset(0): Using hsync ranges from config file
+[  2256.474] (II) modeset(0): Using vrefresh ranges from config file
+[  2256.506] (II) modeset(0): Allocate new frame buffer 1024x666 stride
+[  2256.559] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2256.559] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  2256.559] (II) modeset(0): Using hsync ranges from config file
+[  2256.560] (II) modeset(0): Using vrefresh ranges from config file
+[  2257.267] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  2257.267] (II) modeset(0): DDCModeFromDetailedTiming: 1024x666 Warning: We only handle separate sync.
+[  2257.267] (II) modeset(0): Using hsync ranges from config file
+[  2257.268] (II) modeset(0): Using vrefresh ranges from config file
+[  2913.478] (II) event4  - ImExPS/2 Generic Explorer Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.10.4/button_debouncing.html for details
+[  2913.499] (EE) client bug: timer event4 debounce: offset negative (-73ms)
+[  2913.499] (EE) client bug: timer event4 debounce short: offset negative (-86ms)

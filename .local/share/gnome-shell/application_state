@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="31" last-seen="1544811422"/>
+    <application id="firefox.desktop" open-window-count="1" score="1141" last-seen="1544868312"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="40" last-seen="1544816556"/>
+    <application id="update-manager.desktop" open-window-count="0" score="22" last-seen="1544809442"/>
+    <application id="code.desktop" open-window-count="0" score="5" last-seen="1544815730"/>
+    <application id="gnome-terminal.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="857" last-seen="1544868318"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="1" score="99" last-seen="1544867745"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="22" last-seen="1544864672"/>
+    <application id="libreoffice-writer.desktop" open-window-count="1" score="36" last-seen="1544865699"/>
+  </context>
+</application-state>
